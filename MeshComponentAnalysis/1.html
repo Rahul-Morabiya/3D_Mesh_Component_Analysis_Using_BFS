@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Mesh Component Analysis</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>3D Mesh Component Analysis</h1>
+    <form id="input-form">
+      <div class="input-group">
+        <label for="x">X Dimension:</label>
+        <input type="number" id="x" min="1" required>
+      </div>
+      <div class="input-group">
+        <label for="y">Y Dimension:</label>
+        <input type="number" id="y" min="1" required>
+      </div>
+      <div class="input-group">
+        <label for="z">Z Dimension:</label>
+        <input type="number" id="z" min="1" required>
+      </div>
+      <div class="input-group">
+        <label for="grid">Paste Grid Values (comma-separated):</label>
+        <textarea id="grid" rows="5" placeholder="Enter grid values..."></textarea>
+      </div>
+      <button type="button" id="analyze-btn">Analyze</button>
+    </form>
+
+    <div id="output">
+      <p id="component-count">Number of Components: <span>0</span></p>
+    </div>
+
+    <div id="visualization-container"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="1.js"></script>
+</body>
+</html>
