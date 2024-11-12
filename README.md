@@ -1,4 +1,4 @@
-# 3D Mesh Component Analysis Project
+# 3D Mesh Component Analysis Project Using BFS
 This project involves building an interactive 3D application to perform component analysis on a 3D grid or "mesh." The application uses Three.js to render a visual representation of the grid, where each cell in the grid can be either occupied (1) or empty (0). The primary goal is to identify and visually highlight each distinct connected component in the 3D grid.
 
 A connected component is a group of occupied cells (1s) that are adjacent in any direction (up, down, left, right, forward, or backward). This project allows users to input their own 3D grids and view the results of the component analysis in a visually engaging 3D environment.
