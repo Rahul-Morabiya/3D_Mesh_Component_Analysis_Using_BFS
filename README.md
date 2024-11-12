@@ -11,9 +11,9 @@ A connected component is a group of occupied cells (1s) that are adjacent in any
 ## Features
 3D Visualization of the Grid: Users can see a 3D rendering of the grid they defined. Each cell in the grid appears as a small cube, forming a larger 3D structure.
 
-### Component Analysis with Color Coding: Using a breadth-first search (BFS) algorithm, the program identifies and groups connected cells into components. Each component is assigned a unique color to distinguish it from other components, making it easy to visually differentiate clusters of connected cells.
+ Component Analysis with Color Coding: Using a breadth-first search (BFS) algorithm, the program identifies and groups connected cells into components. Each component is assigned a unique color to distinguish it from other components, making it easy to visually differentiate clusters of connected cells.
 
-### Dynamic User Input: Users can specify grid dimensions (rows, columns, and depth) and paste in their own grid data to analyze any custom 3D mesh. The application handles validation and parsing of the input data to ensure compatibility.
+ Dynamic User Input: Users can specify grid dimensions (rows, columns, and depth) and paste in their own grid data to analyze any custom 3D mesh. The application handles validation and parsing of the input data to ensure compatibility.
 
 ## Project Workflow
 Grid Setup: The user inputs grid dimensions and data. The application then initializes a 3D array with this data.
